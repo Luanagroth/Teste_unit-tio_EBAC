@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import HomePage from '@/app/page';
-import { resetTasks } from '@/lib/taskStore';
+import { resetTasks } from '@/backend/lib/taskStore';
 
 describe('HomePage', () => {
   beforeEach(() => {
@@ -22,3 +22,4 @@ describe('HomePage', () => {
     ).toBeInTheDocument();
   });
 });
+

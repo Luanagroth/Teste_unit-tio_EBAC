@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import type { FormEvent } from 'react';
-import type { TaskInput } from '@/types/task';
+import type { TaskInput } from '@/backend/types/task';
 
 type NovaTarefaProps = {
   onAddTask: (task: TaskInput) => Promise<void>;
@@ -83,3 +83,4 @@ export function NovaTarefa({ onAddTask }: NovaTarefaProps) {
     </form>
   );
 }
+

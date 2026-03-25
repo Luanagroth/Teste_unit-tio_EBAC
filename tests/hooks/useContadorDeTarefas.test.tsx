@@ -1,6 +1,6 @@
+import type { Task } from '@/backend/types/task';
+import { useContadorDeTarefas } from '@/frontend/hooks/useContadorDeTarefas';
 import { renderHook } from '@testing-library/react';
-import { useContadorDeTarefas } from '@/hooks/useContadorDeTarefas';
-import type { Task } from '@/types/task';
 
 describe('useContadorDeTarefas', () => {
   it('retorna a quantidade atual de tarefas', () => {

@@ -34,3 +34,7 @@ Thumbs.db
 # Logs
 logs/
 *.log
+dev-server*.log
+
+# TypeScript
+*.tsbuildinfo

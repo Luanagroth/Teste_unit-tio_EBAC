@@ -1,5 +1,9 @@
 import { NextResponse } from 'next/server';
-import { deleteTask, getTaskById, updateTask } from '@/lib/taskStore';
+import {
+  deleteTask,
+  getTaskById,
+  updateTask,
+} from '@/backend/lib/taskStore';
 
 type RouteContext = {
   params: Promise<{
@@ -83,3 +87,4 @@ export async function DELETE(_request: Request, { params }: RouteContext) {
     message: 'Tarefa removida com sucesso.',
   });
 }
+

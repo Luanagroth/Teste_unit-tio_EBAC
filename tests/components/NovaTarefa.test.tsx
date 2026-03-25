@@ -1,5 +1,5 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
-import { NovaTarefa } from '@/components/NovaTarefa';
+import { NovaTarefa } from '@/frontend/components/NovaTarefa';
 
 describe('NovaTarefa', () => {
   it('renderiza os campos e o botao de envio', () => {
@@ -51,3 +51,4 @@ describe('NovaTarefa', () => {
     });
   });
 });
+

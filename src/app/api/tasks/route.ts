@@ -1,5 +1,5 @@
-﻿import { NextResponse } from 'next/server';
-import { addTask, getTasks } from '@/lib/taskStore';
+import { NextResponse } from 'next/server';
+import { addTask, getTasks } from '@/backend/lib/taskStore';
 
 export async function GET() {
   try {
@@ -61,3 +61,4 @@ export async function POST(request: Request) {
     );
   }
 }
+

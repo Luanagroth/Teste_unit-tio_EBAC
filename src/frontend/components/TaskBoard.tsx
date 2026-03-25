@@ -2,9 +2,9 @@
 
 import { useCallback, useEffect, useState } from 'react';
 import type { FormEvent } from 'react';
-import { NovaTarefa } from '@/components/NovaTarefa';
-import { useContadorDeTarefas } from '@/hooks/useContadorDeTarefas';
-import type { Task, TaskInput } from '@/types/task';
+import type { Task, TaskInput } from '@/backend/types/task';
+import { NovaTarefa } from '@/frontend/components/NovaTarefa';
+import { useContadorDeTarefas } from '@/frontend/hooks/useContadorDeTarefas';
 
 type TaskBoardProps = {
   initialTasks: Task[];

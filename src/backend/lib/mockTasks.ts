@@ -1,4 +1,4 @@
-import type { Task } from '@/types/task';
+import type { Task } from '@/backend/types/task';
 
 export const mockTasks: Task[] = [
   {
@@ -23,3 +23,4 @@ export const mockTasks: Task[] = [
     completed: false,
   },
 ];
+

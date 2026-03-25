@@ -1,10 +1,20 @@
-﻿import { randomUUID } from 'crypto';
+import { randomUUID } from 'crypto';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
 import path from 'path';
-import { mockTasks } from '@/lib/mockTasks';
-import type { Task, TaskInput, TaskUpdateInput } from '@/types/task';
+import { mockTasks } from '@/backend/lib/mockTasks';
+import type {
+  Task,
+  TaskInput,
+  TaskUpdateInput,
+} from '@/backend/types/task';
 
-const dataFilePath = path.join(process.cwd(), 'data', 'tasks.json');
+const dataFilePath = path.join(
+  process.cwd(),
+  'src',
+  'backend',
+  'data',
+  'tasks.json'
+);
 const dataDirectoryPath = path.dirname(dataFilePath);
 
 function cloneTasks(list: Task[]) {

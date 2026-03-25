@@ -1,5 +1,5 @@
-import { TaskBoard } from '@/components/TaskBoard';
-import { getTasks } from '@/lib/taskStore';
+import { getTasks } from '@/backend/lib/taskStore';
+import { TaskBoard } from '@/frontend/components/TaskBoard';
 
 export default async function HomePage() {
   const tasks = await getTasks();

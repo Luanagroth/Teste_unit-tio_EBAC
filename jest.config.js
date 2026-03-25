@@ -9,13 +9,12 @@ const customJestConfig = {
   roots: ['<rootDir>/tests'],
   setupFilesAfterEnv: ['<rootDir>/tests/setupTests.ts'],
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/$1',
+    '^@/(.*)$': '<rootDir>/src/$1',
   },
   collectCoverageFrom: [
-    'app/**/*.{ts,tsx}',
-    'components/**/*.{ts,tsx}',
-    'hooks/**/*.{ts,tsx}',
-    'lib/**/*.{ts,tsx}',
+    'src/app/**/*.{ts,tsx}',
+    'src/frontend/**/*.{ts,tsx}',
+    'src/backend/**/*.{ts,tsx}',
     '!**/*.d.ts',
   ],
 };
