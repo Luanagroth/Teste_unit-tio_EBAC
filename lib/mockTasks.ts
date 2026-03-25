@@ -1,0 +1,25 @@
+import type { Task } from '@/types/task';
+
+export const mockTasks: Task[] = [
+  {
+    id: 'task-1',
+    title: 'Revisar requisitos da entrega',
+    description:
+      'Conferir se o projeto esta usando Next.js 15, App Router e testes.',
+    completed: true,
+  },
+  {
+    id: 'task-2',
+    title: 'Adicionar novas tarefas',
+    description:
+      'Permitir cadastro com titulo e descricao por formulario controlado.',
+    completed: false,
+  },
+  {
+    id: 'task-3',
+    title: 'Garantir cobertura principal',
+    description:
+      'Cobrir pagina, componente NovaTarefa e hook useContadorDeTarefas.',
+    completed: false,
+  },
+];
