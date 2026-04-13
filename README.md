@@ -5,10 +5,17 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)
 ![Jest](https://img.shields.io/badge/Jest-Testes-C21325?style=for-the-badge&logo=jest)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-2ea44f?style=for-the-badge)
+[![CI](https://github.com/Luanagroth/Teste_unit-tio_EBAC/actions/workflows/ci.yml/badge.svg)](https://github.com/Luanagroth/Teste_unit-tio_EBAC/actions/workflows/ci.yml)
+[![Deploy Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)](https://teste-unitario-tarefas.vercel.app)
 
 Aplicação full stack para gerenciamento de tarefas, desenvolvida com foco em organização de código, separação de responsabilidades, testes automatizados e apresentação de portfólio.
 
 O projeto permite cadastrar, listar, editar, concluir e excluir tarefas, usando uma interface moderna no frontend e uma API local no backend, com persistência em arquivo JSON.
+
+## Demo Online
+
+- Producao: [teste-unitario-tarefas.vercel.app](https://teste-unitario-tarefas.vercel.app)
+- Pipeline CI: [GitHub Actions](https://github.com/Luanagroth/Teste_unit-tio_EBAC/actions/workflows/ci.yml)
 
 ## Sobre o Projeto
 
